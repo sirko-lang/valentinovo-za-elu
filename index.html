@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentinovo za Elu ❤️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+    body{background:linear-gradient(135deg,#ff9a9e,#fecfef);color:#fff;overflow-x:hidden;}
+    section{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 20px;text-align:center;}
+    h1,h2{font-family:'Dancing Script',cursive;margin-bottom:20px;}
+    h1{font-size:4rem;}
+    h2{font-size:2.5rem;}
+    p{max-width:700px;font-size:1.2rem;line-height:1.6;}
+    .btn{margin-top:30px;padding:12px 24px;border:none;border-radius:30px;background:#fff;color:#ff4d6d;font-weight:600;cursor:pointer;transition:0.3s;}
+    .btn:hover{transform:scale(1.05);}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;margin-top:30px;width:100%;max-width:900px;}
+    .gallery img{width:100%;height:250px;object-fit:cover;border-radius:20px;box-shadow:0 10px 25px rgba(0,0,0,0.2);}
+    .reasons{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:30px;max-width:900px;}
+    .card{background:rgba(255,255,255,0.2);padding:20px;border-radius:20px;backdrop-filter:blur(10px);}
+    footer{padding:20px;text-align:center;background:rgba(0,0,0,0.2);font-size:0.9rem;}
+  </style>
+</head>
+<body>
+  <section>
+    <h1>Ela ❤️</h1>
+    <p>Prošle su dvije godine od kak moje srce kuca za tebe. Sretno Valentinovo ljubavi, da ih imamo još puno i ova mala stranica je samo za tebe!</p>
+    <button class="btn" onclick="document.getElementById('story').scrollIntoView({behavior:'smooth'})">Naša priča ↓</button>
+  </section>
+
+  <section id="story">
+    <h2>Naša priča</h2>
+    <p>Sve je počelo onog dana kad smo se počeli družiti u srednjoj. S tobom je svaki trenutak postal zabavniji, svaki dan svijetliji i svaki osmijeh zapamćeni. S tobom su i obični dani posebni, a svaki trenutak postaje uspomena koju budem čuval zauvijek.</p>
+  </section>
+
+  <section>
+    <h2>Naši/tvoji trenuci</h2>
+    <div class="gallery">
+      <img src="slika1.PNG" />
+      <img src="slika2.jpeg" />
+      <img src="slika3.jpeg" />
+      <img src="slika4.jpeg" />
+    </div>
+  </section>
+
+  <section>
+    <h2>Zakaj te volim</h2>
+    <div class="reasons">
+      <div class="card">Volim dok misliš da si upravu a nisi.</div>
+      <div class="card">Volim kad imaš kovrčavu kosu.</div>
+      <div class="card">Volim svaki naš zagrljaj.</div>
+      <div class="card">Volim te baš takvu kakva jesi.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Za tebe</h2>
+    <p>Hvala ti kaj si dio mog života. Hvala ti na ljubavi, podršci i svim trenucima koje dijelimo. Jedva čekam sve kaj nas u budućnosti još čeka. Volim te. Zauvijek. ❤️</p>
+  </section>
+
+  <footer>Napravljeno s ljubavlju za Elu 💌</footer>
+</body>
+</html>
